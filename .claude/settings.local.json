@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd \"/c/Users/parcy/㏄booster\" && echo \"--- resources/booster/RSМ ---\"; ls -la \"resources/booster/RSМ\" 2>&1; echo \"--- resources/booster/スケジュール ---\"; ls -la \"resources/booster/スケジュール\" 2>&1; echo \"--- knowledge ---\"; find knowledge -type f 2>&1; echo \"--- company ---\"; find company -type f 2>&1; echo \"--- onboarding-status ---\"; cat .onboarding-status 2>&1)",
+      "Bash(explorer \"C:\\\\Users\\\\parcy\\\\㏄booster\\\\resources\\\\わくわくわく製作所\")",
+      "PowerShell(Start-Process explorer.exe -ArgumentList '\"C:\\\\Users\\\\parcy\\\\�tbooster\\\\resources\\\\�킭�킭�킭���쏊\"')",
+      "Bash(ls -la \"C:\\\\Users\\\\parcy\\\\㏄booster\\\\resources\\\\booster\" 2>&1 | head -50; echo \"---\"; find \"C:\\\\Users\\\\parcy\\\\㏄booster\" -maxdepth 1 -iname \".onboarding-status\" 2>&1)",
+      "mcp__mcp-registry__search_mcp_registry",
+      "mcp__mcp-registry__list_connectors"
+    ]
+  }
+}
